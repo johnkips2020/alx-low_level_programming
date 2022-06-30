@@ -1,4 +1,4 @@
-#include <stdio>
+#include <stdio.h>
 
 /**
 *The main calls the function put then displays Programming is like building a multilingual puzzle

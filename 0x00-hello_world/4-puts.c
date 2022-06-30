@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
-*The main calls the function put then displays Programming is like building a multilingual puzzle
+*main- prints the line Programming is like building a multilingual puzzle
 *Return:0 stops the program
 */
 

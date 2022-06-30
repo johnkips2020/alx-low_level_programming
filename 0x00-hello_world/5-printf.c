@@ -2,7 +2,7 @@
 
 /**
 *main- prints with proper grammar, but the outcome is a piece of art,
-*return:0 terminates the program
+*Return: 0 terminates the program
 */
 int main(void)
 {

@@ -2,7 +2,7 @@
 
 /**
 *main- prints alphabet letters
-*except q and e follow new line 
+*except q and e follow new
 *Return: 0 terminates
 */
 

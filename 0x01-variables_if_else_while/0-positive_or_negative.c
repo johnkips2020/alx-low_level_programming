@@ -3,13 +3,14 @@
 #include <stdio.h>
 
 /**
- * main - assigns a random number to int n 
+ * main - assigns a random number to int n everytime
  * it executes, and prints it
- * Return: terminates the program
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
 	int n;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
@@ -20,3 +21,5 @@ int main(void)
 		printf("%d is negative\n", n);
 	return (0);
 }
+Footer
+

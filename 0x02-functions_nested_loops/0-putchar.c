@@ -1,4 +1,4 @@
-#include <prototype.h>
+#include "prototype.h"
 
 /**
 *main- prints the _putchar

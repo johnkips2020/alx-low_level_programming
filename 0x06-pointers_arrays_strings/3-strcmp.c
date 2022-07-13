@@ -1,4 +1,4 @@
-#include  "main.h"
+#include "main.h"
 
 /**
  * _strcmp - compares two strings
@@ -10,12 +10,11 @@
  */
 int _strcmp(char *s1, char *s2)
 {
-
-	while(*s1 == *s2)
+	while (*s1 == *s2)
 	{
-		if(*s1 == '0\')
+		if (*s1 == '\0')
 		{
-			return (o);
+			return (0);
 		}
 		s1++;
 		s2++;

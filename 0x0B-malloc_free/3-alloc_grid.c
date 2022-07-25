@@ -1,16 +1,16 @@
 #include "main.h"
-#include <stdio.h>
+#include <stdlib.h>
 
 /**
-* alloc_grid - create array of integers
-* @width: width of array
-* @height: height of array
-* Each element of the grid should be initialized to 0
-*
-* Return: pointer to the created array
-* If width or height is 0 or negative, return NULL
-* The function should return NULL on failure
-*/
+ * alloc_grid - creates a 2 dimensional(width * height) array of integers
+ * @width: width of array
+ * @height: height of array
+ * Each element of the grid should be initialized to 0
+ *
+ * Return: pointer to the created array
+ * If width or height is 0 or negative, return NULL
+ * The function should return NULL on failure
+ */
 int **alloc_grid(int width, int height)
 {
 	int **grid;

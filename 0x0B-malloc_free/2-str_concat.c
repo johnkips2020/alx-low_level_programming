@@ -8,7 +8,7 @@ int _strlen(char *s);
 *@s2: 2nd string
 *if NULL is passed, treat it as an empty string
 *
-*Return: to a newly allocated space in memory 
+*Return: to a newly allocated space in memory
 *null terminated
 *return NULL if fails
 */

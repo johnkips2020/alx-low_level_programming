@@ -1,6 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 
+
 /**
 * array_range - Creates an array of integers ordered
 * from min to max, inclusive.
@@ -24,7 +25,7 @@ int *array_range(int min, int max)
 	if (array == NULL)
 		return (NULL);
 
-	for (index = o; index < size; index++)
+	for (index = 0; index < size; index++)
 		array[index] = min++;
 
 	return (array);

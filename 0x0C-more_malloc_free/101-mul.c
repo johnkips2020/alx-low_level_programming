@@ -39,8 +39,8 @@ int _strlen(char *s)
 }
 
 /**
-* errors -handles errors for main
-*/
+ * errors - handles errors for main
+ */
 void errors(void)
 {
 	printf("Error\n");
@@ -48,19 +48,19 @@ void errors(void)
 }
 
 /**
-* main - multiplies two positive numbers
-* @argc: number of arguments
-* @argv: array of arguments
-*
-* Return: always 0 (success)
-*/
+ * main - multiplies two positive numbers
+ * @argc: number of arguments
+ * @argv: array of arguments
+ *
+ * Return: always 0 (Success)
+ */
 int main(int argc, char *argv[])
 {
 	char *s1, *s2;
 	int len1, len2, len, i, carry, digit1, digit2, *result, a = 0;
 
 	s1 = argv[1], s2 = argv[2];
-	if (args != 3 || !is_digit(s1) || !is_digit(s2))
+	if (argc != 3 || !is_digit(s1) || !is_digit(s2))
 		errors();
 	len1 = _strlen(s1);
 	len2 = _strlen(s2);
